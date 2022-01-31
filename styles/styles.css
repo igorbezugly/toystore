@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    width: 100%;
+    max-width: 1440px;
+    background-color: gray;
+}
+
+.rowbox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.columnbox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    /*font-family: 'Open Sans';
+    font-weight: 400;*/
+    color: #fff;
+}
+
+/*====================header===================*/
+
+.span11 {
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.aboveheader { /*==сделать стиком?==*/
+    background-color: #a5c926;
+    height: 32px;
+    width: 100%;
+}
+
+.aboveheader__box1 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    gap: 16px;
+    padding-top: 8px;
+    padding-right: 20px;
+}
+
+.mediaicons {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: 16px;
+    padding-top: 8px;
+}
+
+header {
+    background-color: #fff;
+    height: 72px;
+    width: 100%;
+    align-content:center;
+}
+
+.header__ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    gap: 36px;
+    padding-top: 20px;
+}
+
+.li__toystore {
+    font-size: 21px;
+    line-height: 33px;
+    color: #333333;
+    padding-right: 21px;
+}
+
+.li__top {
+    font-size: 13px;
+    line-height: 24px;
+    color: #111111;
+    padding-top: 4px;
+}
+
+.li__top:nth-child(5n) {
+    padding-right: 20px;
+}
+
+.header__cartbox {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items:flex-end;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+.cartnumber {
+    height: 20px;
+    font-style: 12px;
+    text-align: center;
+    line-height: 18px;
+    width: 20px;
+    color: #fff;
+    background-color: #a5c926;
+    border-radius: 10px;
+}
+
+/*===============================hero================================*/
+
+.hero {
+    height: 640px;
+    background: url(./bigbgimage.svg);
+}
+
+.herobox {
+    position: relative;
+    top: 162px;
+    max-width: 570px;
+    height: 308px;
+    background-color: #fff;
+    border-radius: 16px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero__hello {
+    font-size: 13px;
+    line-height: 16px;
+    padding-top: 55px;
+    color: #a5c926;
+}
+
+h1 {
+    font-size: 39px;
+    line-height: 48px;
+    color: #111111;
+}
+
+.hero__button {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 12px;
+    padding-left: 12px;
+    background-color: #a5c926;
+    border-radius: 24px;
+}
+
+
+/*============================adapt============================*/
+
+@media screen and (max-width:680px) and (min-width:536px){
+    header {height: 144px;}
+    .herobox {width: 436px;}
+}
+@media screen and (max-width:535px) and (min-width:366px) {
+    header {height: 200px;}
+    .aboveheader {height: 58px;}
+    .herobox {width: 315px;}
+    .hero__hello {padding-top: 30px;}
+}
+@media screen and (max-width:365px) {
+    header {height: 200px;}
+    .aboveheader {height: 84px;}
+    .herobox {width: 265px;}
+    .hero__hello {padding-top: 30px;}
+    h1 {font-size: 32px;}
+}
