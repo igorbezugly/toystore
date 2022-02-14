@@ -1,0 +1,150 @@
+.samples {
+    width: 100%;
+    min-height: 1636px;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-flow: column nowrap;
+
+    &__flexbox1 {
+        padding-left: 135px / 1440px *100%;
+        padding-right: 135px / 1440px *100%;
+        padding-top: 152px;
+        gap: 30px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        &__innerflex1 {
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: flex-start;
+            gap: 16px;
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+
+        &__innerflex2 {
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: flex-end;
+            gap: 16px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+        }
+    }
+
+    &__stuffedbox {
+        min-height: 188px;
+        width: 570px;
+        background-color: #ffc12c;
+        border-radius: 16px;
+        display: flex;
+        flex-flow: row wrap;
+        column-gap: 29px;
+        align-content: flex-start;
+        align-items: center;
+    }
+
+    &__woodenbox {
+        min-height: 188px;
+        width: 570px;
+        background-color: #fb416b;
+        border-radius: 16px;
+        display: flex;
+        flex-flow: row-reverse wrap;
+        column-gap: 29px;
+        align-content: flex-start;
+        align-items: center;
+
+        .samples__bigpic {
+            margin-right: 10px;
+        }
+    }
+
+    &__toytypename {
+        font-size: 28px;
+        line-height: 36px;
+        margin-right: 10px;
+        color: #fff;
+        font-family: 'Varela Round';
+    }
+
+    &__shopbutton {
+        padding: 8px 24px;
+        font-size: 13px ;
+        line-height: 24px;
+        border-color: #fff;
+        color: #111111;
+        border-radius: 20px;
+        border: 0px;
+    }
+
+
+    &__nameflexbox {
+        margin-left: 135px / 1440px *100%;
+        margin-right: 135px / 1440px *100%;
+        padding-top: 152px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        border-bottom: 2px solid #dddddd;
+        align-items: center;
+
+        .samples__toytypename {
+            color: #111111;
+        }
+    }
+
+    &__seeall {
+        font-size: 13px;
+        line-height: 20px;
+        color: #111111;
+    }
+
+    &__toyrow {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        gap: 30px;
+        margin-left: 135px / 1440px *100%;
+        margin-right: 135px / 1440px *100%;
+        padding-top: 55px;
+        margin-bottom: 30px;
+
+        &__toybox {
+            width: 270px;
+            height: 328px;
+            padding-top: 32px;
+            padding-bottom: 32px;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            gap: 12px;
+            background-color: #fff;
+            border-radius: 16px;
+
+            .span14 {
+                font-size: 14px;
+                line-height: 20px;
+                font-family: 'Varela Round';
+            }
+        }
+    }
+
+    &__pricebutton {
+        font-size: 12px;
+        line-height: 20px;
+        color: #fff;
+        background-color: #a5c926;
+        border-radius: 16px;
+        padding: 2px 12px;
+        border: 0px;
+    }
+}
+
+.toypic {
+    width: 182px;
+    height: 182px;
+    margin-bottom: 13px;
+}

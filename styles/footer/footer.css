@@ -1,0 +1,104 @@
+.footer {
+  width: 100%;
+  min-height: 209px;
+  padding-right: 9.375%;
+  padding-left: 9.375%;
+  padding-top: 52px;
+  padding-bottom: 20px;
+  background-color: #a5c926;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
+}
+
+.footer__row1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(92px, 351px))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(92px, 351px));
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.footer .span21 {
+  font-size: 21px;
+  line-height: 32px;
+  font-family: 'Varela Round';
+  color: #fff;
+}
+
+.footer__nav {
+  display: -ms-grid;
+  display: grid;
+  max-width: 351px;
+  -ms-grid-columns: (minmax(30px, 58px))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(30px, 58px));
+  grid-gap: 15px;
+}
+
+.footer__row2 {
+  height: 1px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.footer__a {
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.footer__row3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(200px, 264px))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 264px));
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__row3 .span11 {
+  font-size: 11px;
+  line-height: 16px;
+  color: #fff;
+}
+
+.footer__row3__rightbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  gap: 5px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__contact-a {
+  font-size: 11px;
+  line-height: 16px;
+  color: #fff;
+}
+
+.dotspace {
+  width: 4px;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+/*# sourceMappingURL=footer.css.map */

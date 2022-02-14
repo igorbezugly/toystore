@@ -1,2 +1,2 @@
 # toystore
-website, html, css
+website, html, scss

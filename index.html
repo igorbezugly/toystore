@@ -9,46 +9,210 @@
 </head>
 <body>
     <div class="aboveheader"> 
-        <div class="rowbox">
-            <div class="aboveheader__box1">
-                <span class="span11">Call Us: +1 213 974-5898</span>
-                <span class="span11">Email: toystore@template.com</span>
-            </div>
-            <div class="mediaicons">
-                <a href="#"><img src="./images/twicon.svg" alt="1"></a>
-                <a href="#"><img src="./images/fbicon.svg" alt="2"></a>
-                <a href="#"><img src="./images/igicon.svg" alt="3"></a>
-                <a href="#"><img src="./images/pinicon.svg" alt="4"></a>
-                <a href="#"><img src="./images/yticon.svg" alt="5"></a>
-            </div>
+        <div class="aboveheader__box">
+            <span class="span11">Call Us: +1 213 974-5898</span>
+            <span class="span11">Email: toystore@template.com</span>
+        </div>
+        <div class="mediaicons">
+            <a href="#"><img src="./images/twicon.svg" alt="1"></a>
+            <a href="#"><img src="./images/fbicon.svg" alt="2"></a>
+            <a href="#"><img src="./images/igicon.svg" alt="3"></a>
+            <a href="#"><img src="./images/piicon.svg" alt="4"></a>
+            <a href="#"><img src="./images/yticon.svg" alt="5"></a>
         </div>
     </div>
 
     <header>
-        <div class="rowbox">
-            <ul class="header__ul">
-                <li class="li__toystore"><a href="#">ToyStore</a></li>
-                <li class="li__top"><a href="#">Catalog</a></li>
-                <li class="li__top"><a href="#">Delivery</a></li>
-                <li class="li__top"><a href="#">About</a></li>
-                <li class="li__top"><a href="#">Contacts</a></li>
-            </ul>
-            <div class="header__cartbox">
-                <a href="#"><li class="li__top">Cart</li></a>
-                <a href="#"><img src="./images/cart.svg" alt="6"></a>
-                <div class="cartnumber">№</div>
-            </div>
+        <nav class="header__nav">
+            <a href="#" class="header__atop">ToyStore</a>
+            <a href="#" class="header__a">Catalog</a>
+            <a href="#" class="header__a">Delivery</a>
+            <a href="#" class="header__a">About</a>
+            <a href="#" class="header__a">Contacts</a>
+        </nav>
+        <div class="header__cartbox">
+            <a href="#" class="header__a">Cart</a>
+            <a href="#"><img src="./images/cart.svg" alt="6"></a>
+            <div class="cartnumber">0</div>
         </div>
     </header>
     
     <div class="hero">
-        <div class="herobox">
+        <div class="hero__box">
             <div class="hero__hello">Say Hello to ToyStore!</div>
-            <h1><center>Free Ecommerce Template for Webflow</center></h1>
+            <h1>Free Ecommerce Template for Webflow</h1>
             <button class="hero__button">Open Catalog</button>
         </div>
     </div>
 
+<!-- samples-------------------------------------------------------------------- -->
 
+    <div class="samples">
+        <div class="samples__flexbox1">
+            <div class="samples__stuffedbox">
+                <img src="./images/toy11.svg" alt="" class="samples__bigpic">
+                <div class="samples__flexbox1__innerflex1">
+                    <span class="samples__toytypename">Stuffed Animals</span>
+                    <button class="samples__shopbutton">Shop Now</button>
+                </div>
+            </div>
+            <div class="samples__woodenbox">                
+                <img src="./images/toy21.svg" alt="" class="samples__bigpic">
+                <div class="samples__flexbox1__innerflex2">
+                    <span class="samples__toytypename">Wooden Toys</span>
+                    <button class="samples__shopbutton">Shop Now</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="samples__nameflexbox">
+            <div class="samples__toytypename">Stuffed Animals</div>
+            <a href="#" class="samples__seeall">See All Toys<img src="./images/arrow.svg" alt="1"></a>
+        </div>
+        
+        <div class="samples__toyrow">
+            <div class="samples__toyrow__toybox">
+                <img src="./images/toy11.svg" alt="" class="toypic">
+                <span class="span14">Teddy Bear</span>
+                <button class="samples__pricebutton">$ 30.00 USD</button>
+            </div>
+            <div class="samples__toyrow__toybox">
+                <img src="./images/toy12.svg" alt="" class="toypic">
+                <span class="span14">Mega Plush Toy</span>
+                <button class="samples__pricebutton">$ 38.00 USD</button>
+            </div>
+            <div class="samples__toyrow__toybox">
+                <img src="./images/toy13.svg" alt="" class="toypic">
+                <span class="span14">Cute Dog</span>
+                <button class="samples__pricebutton">$ 24.00 USD</button>
+            </div>
+            <div class="samples__toyrow__toybox">
+                <img src="./images/toy14.svg" alt="" class="toypic">
+                <span class="span14">Little Friend</span>
+                <button class="samples__pricebutton">$ 27.00 USD</button>
+            </div>
+        </div>
+
+        <div class="samples__nameflexbox">
+            <div class="samples__toytypename">Wooden Toys</div>
+            <a href="#" class="samples__seeall">See All Toys<img src="./images/arrow.svg" alt="1"></a>
+        </div>
+        
+        <div class="samples__toyrow">
+            <div class="samples__toyrow__toybox">
+                <img src="./images/toy21.svg" alt="" class="toypic">
+                <span class="span14">Happy Flower</span>
+                <button class="samples__pricebutton">$ 38.00 USD</button>
+            </div>
+            <div class="samples__toyrow__toybox">
+                <img src="./images/toy22.svg" alt="" class="toypic">
+                <span class="span14">Lift Machine</span>
+                <button class="samples__pricebutton">$ 24.00 USD</button>
+            </div>
+            <div class="samples__toyrow__toybox">
+                <img src="./images/toy23.svg" alt="" class="toypic">
+                <span class="span14">Wooden Camera</span>
+                <button class="samples__pricebutton">$ 32.00 USD</button>
+            </div>
+            <div class="samples__toyrow__toybox">
+                <img src="./images/toy24.svg" alt="" class="toypic">
+                <span class="span14">Little Rabbit</span>
+                <button class="samples__pricebutton">$ 16.00 USD</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- vodio-------------------------------------------------------------- -->
+
+    <div class="vodio">
+        <span class="span14">About The Shop</span>
+        <span class="span36"><center>Watch Our Story</center></span>
+        <span class="span14"><center>There is no magic formula to write perfect ad copy. It is based on a number of factors, including ad placement, demographic, even the consumer’s mood.</center></span>
+        <button class="vodio__button"><img src="./images/playicon.svg" alt="1"></button>
+    </div>
+
+    <!-- kids--------------------------------------------------------------- -->
+
+    <div class="kids">
+        <span class="span14">Made for Webflow</span>
+        <span class="span31"><center>Simple & Colorful Ecommerce Template for Your Business</center></span>
+        <div class="kids__flexbox">
+            <div class="kids__flexbox__innerflex">
+                <span class="span31">Available for FREE!</span>
+                <div class="kids__flexbox__line"></div>
+                <span class="span14">A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic formula to write perfect ad copy</span>
+                <div class="kids__button">GET IT NOW!</div>
+            </div>
+            <img src="./images/kids.svg" alt="1" class="kids__pic">
+        </div>
+    </div>
+
+    <!-- sub---------------------------------------------------------------- -->
+
+    <div class="sub">
+        <div class="sub__flexbox">
+            <div class="sub__flexbox__innerflex1">
+                <button class="sub__icon"><img src="./images/plane.svg" alt="1"></button>
+                <span class="span23">Subscribe to our newsletter & get<span class="span23__green"> 10% discount!</span></span>
+            </div>
+            <div class="sub__flexbox__innerflex2">
+                <input type="email" class="sub__input"> 
+                <button class="sub__button">Subscribe</button>
+            </div> 
+        </div>
+    </div>
+
+    <!-- igpiclist---------------------------------------------------------- -->
+
+    <div class="igpiclist">
+        <span class="span13">@ElasticThemes</span>
+        <span class="span31"><center>We're on Instagram!</center></span>
+        <div class="igpiclist__piclist">
+            <img src="./images/pic1.svg" alt="1" class="igpiclist__piclist__pic">
+            <img src="./images/pic2.svg" alt="2" class="igpiclist__piclist__pic">
+            <img src="./images/pic3.svg" alt="3" class="igpiclist__piclist__pic">
+            <img src="./images/pic4.svg" alt="4" class="igpiclist__piclist__pic">
+            <img src="./images/pic5.svg" alt="5" class="igpiclist__piclist__pic">
+            <img src="./images/pic6.svg" alt="6" class="igpiclist__piclist__pic">
+        </div>
+        <button class="igpiclist__button">See More Photos</button>
+    </div>
+
+    <!-- footer------------------------------------------------------------- -->
+
+    <div class="footer">
+        <div class="footer__row1">
+            <span class="span21">ToyStore</span>
+            <div class="footer__nav">
+                <a href="#" class="footer__a">Home</a>
+                <a href="#" class="footer__a">Catalog</a>
+                <a href="#" class="footer__a">Delivery</a>
+                <a href="#" class="footer__a">About</a>
+                <a href="#" class="footer__a">Contacts</a>
+            </div>
+            <div class="mediaicons"> <!-- styled in header-->
+                <a href="#"><img src="./images/twicon.svg" alt="1"></a>
+                <a href="#"><img src="./images/fbicon.svg" alt="2"></a>
+                <a href="#"><img src="./images/igicon.svg" alt="3"></a>
+                <a href="#"><img src="./images/piicon.svg" alt="4"></a>
+                <a href="#"><img src="./images/yticon.svg" alt="5"></a>
+            </div>
+        </div>
+        <div class="footer__row2"></div>
+        <div class="footer__row3">
+            <div class="footer__row3__leftbox">
+                <span class="span11">Created with love by</span>
+                <a href="#" class="footer__contact-a">Elastic Themes</a>
+            </div>
+            <div class="footer__row3__rightbox">
+                <span class="span11">Powered by</span>
+                <a href="#" class="footer__contact-a">Webflow</a>
+                <div class="dotspace"></div>
+                <a href="#" class="footer__contact-a">Style Guide</a>
+                <div class="dotspace"></div>
+                <a href="#" class="footer__contact-a">Licensing</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

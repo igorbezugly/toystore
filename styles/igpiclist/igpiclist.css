@@ -1,0 +1,55 @@
+.igpiclist {
+  width: 100%;
+  min-height: 694px;
+  background-color: #f8f8f8;
+  padding-top: 120px;
+  padding-bottom: 20px;
+  padding-left: 11.59722%;
+  padding-right: 11.59722%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.igpiclist__piclist {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(172px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(172px, 1fr));
+  grid-gap: 14px;
+  margin-bottom: 76px;
+}
+
+.igpiclist .span13 {
+  font-size: 13px;
+  line-height: 16px;
+  color: #A5C926;
+}
+
+.igpiclist .span31 {
+  font-family: 'Varela Round';
+  font-size: 31px;
+  line-height: 40px;
+  color: #111111;
+  margin-top: 17px;
+  margin-bottom: 85px;
+}
+
+.igpiclist__button {
+  padding: 12px 28px;
+  color: #fff;
+  background-color: #a5c926;
+  border-radius: 24px;
+  border: none;
+}
+/*# sourceMappingURL=igpiclist.css.map */

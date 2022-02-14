@@ -1,0 +1,100 @@
+.aboveheader {
+    min-height: 32px;
+    width: 100%;
+    background-color: #a5c926;
+    vertical-align: middle;
+    padding-left: 135px / 1440px *100%;
+    padding-right: 135px / 1440px *100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+    &__box {
+        display: flex;
+        flex-flow: row wrap;
+        align-content: flex-start;
+        align-items: center;
+        column-gap: 16px;
+        
+        .span11 {
+            color: #fff;
+            font-size: 11px;
+            line-height: 16px;
+        }
+    }   
+}
+
+
+
+.mediaicons {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-left: 50px;
+}
+
+header {
+    min-height: 104px;
+    width: 100%;
+    background-color: #fff;
+    vertical-align: middle;
+    padding-left: 135px / 1440px *100%;
+    padding-right: 135px / 1440px *100%;
+    padding-bottom: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    &__nav {
+        display: flex;
+        flex-flow: row wrap;
+        column-gap: 36px;
+        align-content: flex-start;
+        align-items: center;
+        padding-right: 50px;
+    }
+    &__cartbox {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        align-content: center;
+        align-items: center;
+        gap: 15px;
+        padding-left: 50px;
+    }
+    &__atop {
+        font-size: 21px;
+        line-height: 32px;
+        color: #333333;
+    }
+    &__a {
+        font-size: 14px;
+        line-height: 24px;
+        color: #111111;
+    }
+}
+
+.cartnumber {
+    color: #fff;
+    background-color: #a5c926;
+    font-size: 12px;
+    line-height: 18px;
+    min-width: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width:320px) {
+    .header__atop {
+        margin-right: 100px;
+    }
+}

@@ -1,0 +1,44 @@
+.igpiclist {
+  width: 100%;
+  min-height: 694px;
+  background-color: #f8f8f8;
+  padding-top: 120px;
+  padding-bottom: 20px;
+  padding-left: 167px / 1440px * 100%;
+  padding-right: 167px / 1440px * 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  align-content: center;
+
+  &__piclist {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(172px, 1fr));
+    grid-gap: 14px;
+    margin-bottom: 76px;
+  }
+
+  .span13 {
+    font-size: 13px;
+    line-height: 16px;
+    color: #A5C926;
+  }
+
+  .span31 {
+    font-family: 'Varela Round';
+    font-size: 31px;
+    line-height: 40px;
+    color: #111111;
+    margin-top: 17px;
+    margin-bottom: 85px;
+  }
+
+  &__button {
+    padding: 12px 28px;
+    color: #fff;
+    background-color: #a5c926;
+    border-radius: 24px;
+    border: none;
+  }
+}

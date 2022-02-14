@@ -1,0 +1,72 @@
+.span14 {
+  font-size: 14px;
+  line-height: 24px;
+  color: #a5c926;
+}
+
+.span31 {
+  font-size: 31px;
+  line-height: 40px;
+  color: #111111;
+  max-width: 447px;
+  font-family: 'Varela Round';
+}
+
+.kids {
+  width: 100%;
+  min-height: 872px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  align-content: center;
+  gap: 18px;
+  padding-top: 119px;
+  padding-left: 135px / 1440px * 100%;
+  padding-right: 135px / 1440px * 100%;
+  background-color: #f8f8f8;
+
+  &__flexbox {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 78px;
+    gap: 150px;
+
+    &__innerflex {
+      max-width: 451px;
+      display: flex;
+      flex-flow: column nowrap;
+      gap: 25px;
+      align-items: start;
+
+      .span31 {
+        margin-top: 80px;
+      }
+
+      .span14 {
+        color: #999999;
+      }
+    }
+
+    &__line {
+      width: 70px;
+      height: 2px;
+      background-color: #a5c926;
+    }
+  }
+
+  &__pic {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  &__button {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 12px 28px;
+    width: 145px;
+    color: #fff;
+    background-color: #a5c926;
+    border-radius: 16px;
+    border: 0px;
+  }
+}
