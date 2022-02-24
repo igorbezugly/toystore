@@ -1,0 +1,80 @@
+.footer {
+  width: 100%;
+  min-height: 209px;
+  padding-right: 135px / 1440px * 100%;
+  padding-left: 135px / 1440px * 100%;
+  padding-top: 52px;
+  padding-bottom: 20px;
+  background-color: #a5c926;
+
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+
+  &__row1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(92px, 351px));
+    justify-content: space-between;
+    align-content: center;
+  }
+  
+  .span21 {
+    font-size: 21px;
+    line-height: 32px;
+    font-family: 'Varela Round';
+    color: #fff;
+  }
+
+  &__nav {
+    display: grid;
+    max-width: 351px;
+    grid-template-columns: repeat(auto-fit, minmax(30px, 58px));
+    grid-gap: 15px;
+  }
+
+  &__row2 {
+    height: 1px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+
+  &__a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  &__row3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 264px));
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+
+    .span11 {
+      font-size: 11px;
+      line-height: 16px;
+      color: #fff;
+    }
+    
+    &__rightbox {
+      display: flex;
+      flex-flow: row nowrap;
+      gap: 5px;
+      align-content: center;
+      align-items: center;
+    }
+  }
+
+  &__contact-a {
+    font-size: 11px;
+    line-height: 16px;
+    color: #fff;
+  }
+}
+
+.dotspace {
+  width: 4px;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.5);
+}

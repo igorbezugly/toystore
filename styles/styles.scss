@@ -1,0 +1,18 @@
+@import "./general/general.scss";
+@import "./header/header.scss";
+@import "./hero/hero.scss";
+@import "./samples/samples.scss";
+@import "./vodio/vodio.scss";
+@import "./kids/kids.scss";
+@import "./igpiclist/igpiclist.scss";
+@import "./footer/footer.scss";
+
+@font-face {
+    font-family: 'Varela Round';
+    src: url(../fonts/Open_Sans,Varela_Round/Varela_Round/VarelaRound-Regular.ttf);
+}
+  
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/Open_Sans,Varela_Round/Open_Sans/static/OpenSans/OpenSans-Regular.ttf);
+}
